@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head id='h'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<title></title>
+	</head>
+<body>
+	<script src="read.js"></script>
+		<link rel="stylesheet" type="text/css" href="project.css">
+		<div id="head">
+			<p id='text'>Read</p>
+		</div>
+		<img id='img' src= "https://www.westlothian.gov.uk/media/14001/Spiral-bookcase/image/bookspiral.jpg"></img>
+		<div id='space'>
+			<h9>A Home For Your Books</h9>
+			<h6>Have your own library here, read whatever you want whenever you need</h6>
+		</div>
+		<div>
+		<button id='b1' class="btn"><a href="https://www.readanybook.com/search?q=health">Health</a></button>
+
+		<button id='2' class="btn"> <a href= 'https://www.readanybook.com/search?q=history'> History</a></button>
+		<button id='3' class="btn"><a href="https://www.readanybook.com/search?q=science">Sience</a></button>
+		<button id='4' class="btn"><a href="https://www.readanybook.com/search?q=children">Children</a></button>
+		<button id='5' class="btn"><a href="https://www.readanybook.com/search?q=cook">Cook Books</a></button>
+		</div>
+		<div id='qtsD'></div>
+</body>
+	<script>
+		$('#head').css("background", "#009999");
+		$('p').css("color", "#e6ffff")
+		$('#text').css('font-size', '100px');
+		$('#text').onclick(function(){
+			var c = document.getElementByClass('text')
+		})
+	</script>
+</html>
