@@ -1,3 +1,4 @@
+/*styling the title "Read"*/
 #head {
 	width: auto;
 	height: 200px;
@@ -8,36 +9,44 @@
     padding-bottom: 40px;
     font-family: courier;
     text-align: center;
+    cursor: pointer
 }
-
+/*styling the buttons */
 .btn{
-	border-width: 10px;
-	width: 180px;
+	border-width: 5px;
+	border-color: #b32d00;
+	width: 192px;
 	height: 50px;
 	color: #009999;
 	font-size: 20px;
 	cursor: pointer;
 	font-family: courier;
 }
-
+/*styling the text "A Home For Your Books
+Have your own library here, read whatever you want whenever you need" */
 #space{
 	padding-top: 30px;
 	font-size: 40px;
 	text-align: center;
 	margin-bottom: 10px;
 	color:  #006666;
-	font-family: courier;
+	font-family: courier
 }
-
+/*styling the image */
 #img{
-	width: 1000px;
-	height: 200px;
-	margin-left: -10px;
-
+	text-align: center
 }
-
-#qtsD {
-	padding-top: 100;
+/*styling the qutes */
+#qtsD{
+	color: #b32d00;
+	font-size: 30px;
+	font-family: courier;
+	text-align: center;
+	margin-top: 80px
+}
+/*centralize the dive of buttons */
+#btn2{
+	text-align: center
 }
 
 
